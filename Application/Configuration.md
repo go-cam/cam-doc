@@ -24,7 +24,7 @@ func appAddConfig() camBase.AppConfigInterface {
 
 ### 1.2 Multiple configurations
 You can also add multiple configurations for the app. The later configuration will overwrite the previous one. 
-[Configure override rules](#1.4 Configure override rules)
+[Configure override rules](#1.4)
 
 Example:
 
@@ -75,7 +75,7 @@ func databaseConfig() camBase.ComponentConfigInterface {
 }
 ```
 
-### 1.4 Configure override rules
+### <span id="1.4">1.4 Configure override rules </span>
 
 In the following example, "DB" in config1 will be replaced by "DB" in config2. But "console" in config1 will remain
 
@@ -124,3 +124,8 @@ func consoleConfig() camBase.ComponentConfigInterface {
     return config
 }
 ```
+
+### 1.5 cam-template files:
+
+- [common/config/app.go](https://github.com/go-cam/cam-template/blob/master/common/config/app.go)
+- [server/config/app.go](https://github.com/go-cam/cam-template/blob/master/server/config/app.go)
