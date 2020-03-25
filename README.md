@@ -27,6 +27,26 @@
 |-- README.md
 ``` 
 
+### Environment
+
+#### System
+
+| OS | Status |
+| ---- | ---- |
+| windows 10 | pass |
+| ubuntu 18 | pass |
+
+#### Database
+| driver | status |
+| ---- | ---- |
+| mysql | pass |
+
+#### Cache
+| driver | status |
+| ---- | ---- |
+| file | pass |
+| redis | pass |
+
 
 ### Content
 - [Install](https://github.com/go-cam/cam-template)
