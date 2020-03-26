@@ -5,6 +5,7 @@
  
 ```text
 .
+|-- .docker                 // docker file
 |-- common                  // common module directory
   |-- config                
     |-- app.go              // common module config
